@@ -1,9 +1,9 @@
 # Print Welcome Message
 
 greeting = 'Hello'
-name = 'World'
+name = input("What is your name?")
 
-message = f'{greeting}, {name}!'
+message = f'{greeting}, {name}. Welcome!'
 
 print (message)
 
